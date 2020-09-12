@@ -5,7 +5,7 @@ export const Desktop: React.FC = ({ children }) => {
     return (
         <div>
             <DesktopNavBar />
-            <div>
+            <div style={{ marginTop: '56px' }}>
                 {children}
             </div>
         </div>
