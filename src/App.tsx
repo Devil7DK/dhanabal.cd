@@ -1,9 +1,17 @@
 import React from 'react';
+import { ConnectedRouter } from 'connected-react-router';
+import { Desktop } from './containers';
+import { Routes } from './Routes';
+import { history } from './redux';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>Hello World!</div>
+    <ConnectedRouter history={history}>
+      <Desktop>
+        <Routes />
+      </Desktop>
+    </ConnectedRouter>
   );
-}
+};
 
 export default App;
