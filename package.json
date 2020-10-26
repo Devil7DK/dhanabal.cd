@@ -1,0 +1,24 @@
+{
+  "name": "devil7softwares.in",
+  "version": "0.0.1",
+  "description": "Front & Backend for Devil7Softwares Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Devil7-Softwares/devil7softwares.in.git"
+  },
+  "keywords": [
+    "Devil7Softwares",
+    "Devil7",
+    "Devil7DK"
+  ],
+  "author": "Dineshkumar T (Devil7DK)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devil7-Softwares/devil7softwares.in/issues"
+  },
+  "homepage": "https://github.com/Devil7-Softwares/devil7softwares.in#readme"
+}
