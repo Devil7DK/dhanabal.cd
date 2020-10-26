@@ -4,7 +4,9 @@
   "description": "Front & Backend for Devil7Softwares Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently --kill-others \"tsc -p src/server -w\" \"nodemon --ignore dist/public/* --watch dist dist/index.js\"",
+    "build": "npm run clean && tsc -p src/server && parcel build --out-dir dist/public src/client/index.html",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
