@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Devil7-Softwares/devil7softwares.in/issues"
   },
-  "homepage": "https://github.com/Devil7-Softwares/devil7softwares.in#readme"
+  "homepage": "https://github.com/Devil7-Softwares/devil7softwares.in#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
